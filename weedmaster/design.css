@@ -1,0 +1,91 @@
+body{
+background-color: black;
+background-image: url("background.jpg");
+background-position: top center;
+background-repeat: no-repeat;
+}
+#top{
+background-image: url("fond.png");
+height: 188px;
+width: 600px;
+margin: auto;
+background-repeat:no-repeat;
+margin-bottom: -10px;
+margin-top: -150px;
+}
+#corp{
+background-color: #DDDDDD;
+background-repeat: no-repeat;
+background-image: url("bas.jpg");
+background-position: bottom;
+border: 2px black;
+border-radius: 10px;
+margin: auto;
+margin-top: -40px; 
+width: 940px;  
+}
+#corpgauche{
+width: 300px;
+background-color: white;
+border: 2px black;
+border-radius: 10px;
+padding: 15px;
+float: left;
+color: black;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 120px;
+font: arial, sans-serif;
+}
+#corpgauche a{
+text-decoration: none; 
+color: black;
+}
+#corpgauche a:hover{
+text-decoration: underline;
+}
+#corpmilieu{
+width: 500px;
+float: top;
+background-color: white;
+border: 2px black;
+border-radius: 10px;
+padding: 15px;
+color: black;
+margin-left: 380px;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+font: arial, sans-serif;
+}
+#footer{
+width: 500px;
+background-color: white;
+border: 2px black;
+border-radius: 10px;
+padding: 15px;
+color: black;
+margin-left: 380px;
+margin-right: auto;
+margin-bottom: 20px;
+float: bottom;
+text-align: center;
+}
+#presentation { 
+width: 940px; 
+height: 100px;
+margin: auto;
+margin-bottom: -30px;
+color: white; 
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+background: Gray;
+} 
+#presentation a{
+text-decoration: none; 
+color: green;
+}
+#presentation a:hover{
+text-decoration: underline;
+}

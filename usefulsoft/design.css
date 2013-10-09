@@ -1,0 +1,145 @@
+/**********************DESIGN**************************/
+body
+{
+width: 760px;
+background-image: url("images/fond.png");
+background-repeat: repeat-50;
+margin: auto; 
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: blue;
+}
+h1, h2, h3
+{
+color: white;
+}
+/****************************************************ENTETE********************************************************/
+#entete
+{
+background-image: url("images/entete.png");
+background-repeat: repeat-x;
+height: 150px;
+width: 760px;
+margin-bottom: 10px;
+border: 2px solid black;
+}
+/****************************************************MENU**********************************************************/
+#menu
+{
+float: left;
+width: 129px;
+color: white;
+}
+#menu a
+{
+color: white;
+text-decoration: none;
+}
+#menu :hover
+{
+font-size: 17px;
+color: blue;
+text-decoration: none;
+}
+#menu h3
+{
+font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
+text-align: center;
+}
+#menu ul
+{
+   list-style-image: url("images/puce.png"); 
+   padding: 0px; 
+   padding-left: 20px; 
+   margin: 0px; 
+   margin-bottom: 5px;
+}
+
+.menu1
+{
+border: 2px solid black;
+margin-bottom: 20px;
+background-image: url("images/menu.png");
+}
+
+.menu2
+{
+border: 2px solid black;
+background-image: url("images/menu.png");
+margin-bottom: 20px;
+
+}
+.pub
+{
+border: 2px solid black;
+background-image: url("images/menu.png");
+margin-bottom: 20px;
+}
+/****************************************************CORP**********************************************************/
+#corp
+{
+margin-left: 20px;
+padding: 5px;
+border: 2px solid black;
+margin-bottom: 20px;
+width: 400px;
+background-image: url("images/corp.png");
+float: left;
+}
+#corps
+{
+margin-left: 20px;
+padding: 5px;
+border: 2px solid black;
+margin-bottom: 20px;
+width: 585px;
+background-image: url("images/corp.png");
+float: right;
+}
+#corp a
+{
+color: black;
+text-decoration: none;
+}
+/****************************************************DOUWNLOAD**********************************************************/
+#download
+{
+margin-left: 20px;
+margin-bottom: 20px;
+float: right;
+}
+/****************************************************INFORMATION**********************************************************/
+#information
+{
+margin-left: 20px;
+padding: 5px;
+border: 2px solid black;
+margin-bottom: 20px;
+background-image: url("images/corp.png");
+float: right;
+width: 160px;
+
+}
+#info
+{
+margin-top: 1px;
+border-top: 1px dotted #3C3C3C;
+}
+#infobas
+{
+margin-top: 1px;
+border-top: 1px dotted #3C3C3C;
+border-bottom: 1px dotted #3C3C3C;
+}
+
+/****************************************************FOOTER********************************************************/
+#footer
+{
+border: 2px solid black;
+margin-left: auto;
+margin-bottom: 20px;
+background-image: url("images/corp.png");
+text-align: center;
+float: bottom;
+clear: both;
+}

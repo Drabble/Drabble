@@ -1,0 +1,36 @@
+body{
+background-color: black;
+background-image: url("fond.jpg");
+background-position: top center;
+background-repeat: 1000;
+}
+#header{
+background-color: white;
+height: 260px;
+width: 630px;
+margin: auto;
+border-radius: 10px;
+margin-top: -40px;
+text-align: center;
+}
+#menu{
+border: 2px black;
+border-radius: 10px;
+margin-left: 40px;
+display: inline;
+margin-right: 40px;
+}
+#body{
+background-color: white;
+border: 2px black;
+text-align: justify;
+border-radius: 10px;
+margin: auto;
+width: 600px;  
+margin-top: 30px;
+padding: 20px;
+color: #4D4D4D;
+font-family: Verdana, 'Lucida Grande', Arial, sans-serif;
+line-height: 25px;
+font-size: 14px;
+}

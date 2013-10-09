@@ -1,0 +1,28 @@
+body {padding-top: 55px; padding-bottom: 40px; background-image: url('../img/background.jpg'); background-attachment:fixed;}
+
+a{color: black;}
+hr{border-top: 1px solid #ccc;}
+i {color: black; font-size: 20px; margin-right: 5px;}
+i:hover {opacity:0.5;}
+h1 {font-size: 50px; color: #666362; text-decoration: none;}
+a:hover {text-decoration: none;}
+
+#home{border-bottom:1px solid #6E6E6E;}
+#home a, #tutorials a, #practice a, #gallery a, #contact a, #projects a, #studies a{color: #808080;}
+#page_contact, #page_studies, #page_projects{display: none;}
+
+#slides {display: none}
+#slider_img{position:fixed;}
+#slides .slidesjs-navigation {margin-top:3px;}
+#slides .slidesjs-previous {margin-right: 5px; float: left;}
+#slides .slidesjs-next {margin-right: 5px; float: left;}
+.slidesjs-pagination {margin: 6px 0 0; float: right; list-style: none;}
+.slidesjs-pagination li {float: left; margin: 0 1px;}
+.slidesjs-pagination li a {display: block;width: 13px; height: 0; padding-top: 13px; background-image: url(../img/pagination.png); background-position: 0 0; float: left; overflow: hidden;}
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {background-position: 0 -13px}
+.slidesjs-pagination li a:hover {background-position: 0 -26px}
+#slides a:link, #slides a:visited {color: #333}
+#slides a:hover, #slides a:active {color: #9e2020}
+	
+	
